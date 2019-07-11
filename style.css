@@ -1,22 +1,36 @@
 body {
-    text-align: center;
+   text-align: center;
+    margin:0 auto;
 }
 h2 {
+    margin-top: 30px;
     color: aqua;
 }
-.okvir {
+.frame {
     width: 300px;
     background-color: darkgrey;
     padding: 20px;
     border-radius: 25px;
     margin-left: 790px;
+    margin:0 auto;
 }
-.okvir1 {    
-    width: 100px;
-    background-color: bisque;
-    padding: 1px;
-    border-radius: 2px;
-    margin-left: 95px;
-    color: coral;
-    font-size: 20px
+input {
+    color: aqua;
+    background: #F0FFFF;
+    width: 150px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    color: aqua;
+    background: #000000;
+    margin-top: 20px;
+}
+
+p {
+    color: red;
+    font-size: 20px;
 }

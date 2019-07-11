@@ -1,19 +1,17 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="odlocitve.js"></script>
     </head>
     <body>
-        <h2>Prestono leto</h2>
-        <div class="okvir">
-        <h3>Naključno generiraj leto</h3>
-            <div class="okvir1">
-                <p id="generiraj">
-                </p>
-            </div>
-        <h5>Prestopno</h5>
+        <h2>Check For Leap Year</h2>
+        <div class="frame">
+        <h3>Enter the desired year</h3>
+            <input type="text" id="st1" maxlength="4"><br/>
+            <button onclick="myFunction()">Check</button>
+        <h5>Leap year</h5>
+            <p id="leap"></p>
         </div>
-        <script>
-            document.getElementById("generiraj").innerHTML = Math.floor(Math.random() * 3000) + 2000;
-        </script>
+        
     </body>
 </html>
